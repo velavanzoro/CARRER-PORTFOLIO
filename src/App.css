@@ -1,0 +1,83 @@
+/* Global styles */
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Hero section */
+#home {
+  background: transparent; 
+  color: white;
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
+}
+/* Section titles */
+h2 {
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #343a40;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: #00c6ff !important;
+}
+
+/* Project Cards */
+.card {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #0072ff;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #343a40;
+  color: white;
+  margin-top: 50px;
+}
+.navbar.scrolled {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.hover-zoom {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-zoom:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
+}
+html {
+  scroll-behavior: smooth;
+}

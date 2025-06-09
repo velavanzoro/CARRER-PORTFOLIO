@@ -1,0 +1,64 @@
+.extracurricular-section {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 50px 30px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(18px);
+  border-radius: 25px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  transition: background 0.3s ease;
+}
+
+.extracurricular-section:hover {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 15px 50px rgba(144, 202, 249, 0.8);
+  transform: translateY(-5px);
+}
+
+.section-title {
+  font-size: 2.8rem;
+  margin-bottom: 25px;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  color: #90caf9;
+  animation: glow 3s ease-in-out infinite;
+}
+
+.icon {
+  font-size: 3rem;
+}
+
+@keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 8px #90caf9, 0 0 20px #90caf9;
+  }
+  50% {
+    text-shadow: 0 0 20px #42a5f5, 0 0 30px #42a5f5;
+  }
+}
+
+.activity-text {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #e0e0e0;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.highlight {
+  color: #90caf9;
+  font-weight: 600;
+}
+
+.extracurricular-section:hover .highlight {
+  color: #e3f2fd;
+  text-shadow: 0 0 10px #e3f2fd;
+}
