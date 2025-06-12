@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { TrophyFill, LightningFill } from 'react-bootstrap-icons';
+import { TrophyFill } from 'react-bootstrap-icons';
 import './ExtraCurricular.css';
 
 const ExtraCurricular = () => (
