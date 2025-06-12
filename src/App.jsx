@@ -10,6 +10,8 @@ import './App.css';
 import Languages from './components/Languages.jsx';
 import ExtraCurricular from './components/ExtraCurricular.jsx';
 import ResumeDownload from './components/ResumeDownload.jsx';
+import Footer from './components/Footer.jsx';
+
 
 const App = () => (
   <>
@@ -26,6 +28,7 @@ const App = () => (
     <ExtraCurricular/>
     <ResumeDownload/>
     <Contact />
+    <Footer/>
   </>
 );
 

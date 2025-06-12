@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import './Navbar.css';
+import './Navbar.css'; // Custom styles here
 
 const PortfolioNavbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -20,6 +20,7 @@ const PortfolioNavbar = () => {
       className={`glass-navbar ${scrolled ? 'scrolled' : ''} animate-fade-in`}
     >
       <Container>
+        {/* Brand logo and name */}
         <Navbar.Brand
           href="#home"
           className="brand-name d-flex align-items-center"
@@ -27,25 +28,30 @@ const PortfolioNavbar = () => {
             color: 'white',
             fontWeight: 'bold',
             fontSize: '1.3rem',
-            letterSpacing: '0.5px'
+            letterSpacing: '0.5px',
           }}
         >
           <img
-            src="/portfolio-white.png"
+            src="/portfolio-white.png" // Make sure this image is in /public
             alt="logo"
             style={{
               width: '34px',
               height: '34px',
               marginRight: '10px',
-              filter: 'brightness(0) invert(1)', // Ensures logo is white
-              transition: 'transform 0.3s ease'
+              filter: 'brightness(0) invert(1)',
+              transition: 'transform 0.3s ease',
             }}
-            onMouseOver={(e) => (e.currentTarget.style.transform = 'rotate(20deg) scale(1.1)')}
-            onMouseOut={(e) => (e.currentTarget.style.transform = 'rotate(0deg) scale(1)')}
+            onMouseOver={(e) =>
+              (e.currentTarget.style.transform = 'rotate(20deg) scale(1.1)')
+            }
+            onMouseOut={(e) =>
+              (e.currentTarget.style.transform = 'rotate(0deg) scale(1)')
+            }
           />
           My Portfolio
         </Navbar.Brand>
 
+        {/* Hamburger icon */}
         <Navbar.Toggle aria-controls="navbar-nav" style={{ border: 'none' }} />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="ms-auto text-center nav-links">
