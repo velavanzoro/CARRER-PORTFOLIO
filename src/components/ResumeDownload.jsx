@@ -12,7 +12,7 @@ const ResumeDownload = () => {
           Interested in knowing more? Download my latest resume to explore my skills, projects, and experience.
         </p>
         <Button
-          href="C:\Reactworkspace\project\web\public\VELAVAN_R RESUME.pdf"
+          href="/VELAVAN_R RESUME.pdf"
           download
           variant="outline-light"
           size="lg"
