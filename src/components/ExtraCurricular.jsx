@@ -10,7 +10,7 @@ const ExtraCurricular = () => (
         <TrophyFill className="icon" /> Extra Curricular Activities
       </h2>
       <p className="activity-text">
-        🚀 Solved over <strong>250+ problems</strong> on <span className="highlight">LeetCode</span>, 
+        🚀 Solved over <strong>600+ problems</strong> on <span className="highlight">LeetCode</span>, 
         maintaining a contest rating of <strong>1800+</strong>. <br />
         💻 Active CodeChef programmer, progressing towards a rating of <strong>2⭐</strong>.
       </p>
